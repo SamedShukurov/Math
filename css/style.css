@@ -644,6 +644,10 @@ footer {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
+    transition: 0.4s;
+}
+.footerContainer>div:nth-child(1)>div:nth-child(2) > ul > li > a:hover{
+    color:#675AF0;
 }
 .footerContainer>div:nth-child(1)>div:nth-child(2) > ul{
     display: flex;
@@ -671,6 +675,9 @@ footer {
     display: flex;
     gap: 12.5px;
 }
+.icons > img{
+    cursor: pointer;
+} 
 .telephone{
     display: flex;
     align-items: center;
