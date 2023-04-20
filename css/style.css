@@ -9,6 +9,7 @@
     list-style: none;
     font-family: 'Manrope', sans-serif;
 }
+
 /* !Header */
 header {
     width: 90%;
@@ -85,6 +86,7 @@ header>div {
     border: #EBB44A solid 1.36px;
     background-color: #EBB44A;
 }
+
 /* !Main Top */
 .mainTop {
     background-color: #675AF0;
@@ -303,6 +305,7 @@ header>div {
     align-items: center;
     gap: 9px;
 }
+
 /* !Main Steps */
 .stepsTop {
     margin: 0 auto;
@@ -314,12 +317,14 @@ header>div {
     justify-content: center;
     align-items: center;
 }
-.stepsTop > h4{
-    color:#675AF0;
+
+.stepsTop>h4 {
+    color: #675AF0;
     font-weight: 700;
     font-size: 24px;
 }
-.stepsTop > h5{
+
+.stepsTop>h5 {
     margin-top: 16px;
     font-size: 18px;
     width: 433px;
@@ -327,7 +332,8 @@ header>div {
     text-align: center;
     color: #2B2A2A;
 }
-.steps{
+
+.steps {
     margin: 0 auto;
     width: 80%;
     padding: 20px 220px;
@@ -338,26 +344,30 @@ header>div {
     position: relative;
     margin-bottom: 30px;
 }
-.stepTitle{
+
+.stepTitle {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.stepTitle>img{
+
+.stepTitle>img {
     margin-bottom: 26px;
 }
-.stepTitle > h5{
-    color:#8A7E7E;
+
+.stepTitle>h5 {
+    color: #8A7E7E;
     font-weight: 700;
     font-size: 16px;
 }
-.stepButton{
+
+.stepButton {
     width: 83px;
     height: 35px;
     background-color: #675AF0;
-    color:white;
+    color: white;
     font-weight: 700;
     font-size: 14px;
     border-radius: 52px;
@@ -366,12 +376,14 @@ header>div {
     cursor: pointer;
     transition: 0.3s;
 }
-.stepButton:hover{
+
+.stepButton:hover {
     border: #EBB44A solid 1.36px;
     background-color: #EBB44A;
     font-weight: 900;
 }
-.step{
+
+.step {
     width: 100%;
     gap: 100px;
     display: flex;
@@ -379,188 +391,309 @@ header>div {
     justify-content: space-around;
     align-items: center;
 }
-.line{
+
+.line {
     width: 193px;
     height: 1px;
-    border:2px dashed ;
+    border: 2px dashed;
 }
-.stepImage{
+
+.stepImage {
     width: 80%;
     margin: 0 auto;
-    margin-top:40px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
-#time{
+
+#time {
     margin-right: 20px;
 }
-#crown{
-    margin-right:20px;
+
+#crown {
+    margin-right: 20px;
 }
 
 /*! Main Center */
-.mainCenter{
+.mainCenter {
     width: 100%;
     height: 875px;
     background-image: url("../svg/Desktop - 1.svg");
 }
-.mainCenterContainer{
+
+.mainCenterContainer {
     width: 90%;
     margin: 0 auto;
     padding: 0 170px;
 }
+
 /* !Join */
-.join{
+.join {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.join> div{
+
+.join>div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.join> div > h4{
+
+.join>div>h4 {
     width: 325px;
-    color:#675AF0;
+    color: #675AF0;
     font-weight: 700;
     font-size: 24px;
     height: 33px;
 }
-.join> div > h5{
+
+.join>div>h5 {
     width: 249px;
     height: 22px;
     font-weight: 500;
     font-size: 16px;
-    color:#8A7E7E;
+    color: #8A7E7E;
 }
-.join> div > h6{
+
+.join>div>h6 {
     width: 210px;
     height: 44px;
     font-weight: 500;
     font-size: 16px;
-    color:#8A7E7E;
+    color: #8A7E7E;
 }
-.join> div > button{
+
+.join>div>button {
     background-color: #EBB44A;
     border: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     transition: 0.3s;
     margin-top: 16px;
 }
-.join> div > button:hover{
+
+.join>div>button:hover {
     opacity: 0.8;
-    background-color:#675AF0;
+    background-color: #675AF0;
 }
+
 /*! Why  */
-.why{
+.why {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 150px;
 }
-.why > div{
+
+.why>div {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
 }
-.why > div > h4{
-    color:#675AF0;
+
+.why>div>h4 {
+    color: #675AF0;
     font-weight: 700;
     font-size: 24px;
 }
-.whyImages{
+
+.whyImages {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 6px;
 }
-.whyLine{
+
+.whyLine {
     height: 50px;
     width: 1px;
     border: 1px dashed #8A7E7E;
     border-radius: 8px;
 }
-.circle{
+
+.circle {
     width: 21px;
     height: 21px;
     border: none;
     border-radius: 50%;
     background-color: #675AF0;
 }
-.why > div > div{
+
+.why>div>div {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 21px;
 }
-.whyItems{
+
+.whyItems {
     display: flex;
     flex-direction: column;
     gap: 60px;
     font-size: 18px;
-    color:#2B2A2A;
+    color: #2B2A2A;
     font-weight: 900;
 }
+
 /*!Students */
-.students{
+.students {
     margin-top: 60px;
     height: 401px;
     margin-bottom: 193px;
 }
-.students > h5{
-    color:#675AF0;
+
+.students>h5 {
+    color: #675AF0;
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
 }
-.students > div{
+
+.students>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.studentsCard{
+
+.studentsCard {
     width: 235px;
     height: 342px;
     background-color: #FFFFFF;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius:10px;
+    border-radius: 10px;
+    margin-bottom: 193px;
 }
-.studentsCard > div:nth-child(1){
+
+.studentsCard>div:nth-child(1) {
     height: 120px;
     background-color: #675AF0;
-    border-radius:10px 10px 0 0  ;
-    position:relative;
+    border-radius: 10px 10px 0 0;
+    position: relative;
 }
-.studentsCard > div:nth-child(1) > img{
+
+.studentsCard>div:nth-child(1)>img {
     position: absolute;
     left: 65px;
     top: 38px;
     border: 4px solid #675AF0;
     border-radius: 50%;
 }
-.studentsCard > div:nth-child(2){
+
+.studentsCard>div:nth-child(2) {
     display: flex;
     flex-direction: column;
     gap: 31px;
     padding: 52px 20px 32px 20px;
 }
-.studentsCard > div:nth-child(2) > h4{
+
+.studentsCard>div:nth-child(2)>h4 {
     font-weight: 700;
     font-size: 20px;
-    color:#2B2A2A;
+    color: #2B2A2A;
 }
-.studentsCard > div:nth-child(2) > h5{
+
+.studentsCard>div:nth-child(2)>h5 {
     font-weight: 500;
     font-size: 16px;
-    color:#2B2A2A;
+    color: #2B2A2A;
 }
+
 /* !Footer */
-/* footer{
+footer {
+    margin-top: 693px;
     background-color: #30333D;
     height: 413px;
-} */
+}
+.footerContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 170px;
+}
+
+.footerContainer>div:nth-child(1)>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 146px;
+    color: #EBB44A;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footerContainer>div:nth-child(1)>div:nth-child(1)>h4:nth-child(1) {
+    margin-right: 200px;
+}
+
+.footerContainer>div:nth-child(1)>div:nth-child(2) {
+    display: flex;
+    margin-top: 20px;
+    gap: 137px;
+}
+
+.footerContainer>div:nth-child(1)>div:nth-child(2)>p {
+    width: 299px;
+    height: 154px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footerContainer>div:nth-child(1)>div:nth-child(2) > ul > li > a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerContainer>div:nth-child(1)>div:nth-child(2) > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footerContainer>div:nth-child(1)>div:nth-child(2) > ul:nth-child(2) {
+    margin-right: -2px;
+}
+
+.footerContainer>hr{
+    margin-top: 47px;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.footerBottom > div:nth-child(2){
+    display: flex;
+    gap: 50px;
+}
+.icons{
+    display: flex;
+    gap: 12.5px;
+}
+.telephone{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.telephone,.location >  div > h4{
+    color:  #FFFFFF;
+    text-align: end;
+    font-weight: 600;
+    font-size: 16px;
+}
+.telephone >  div > h5{
+    font-weight: 500;
+    font-size: 14px;
+    color: #B4B4B4;
+}
+.location >  div > h5{
+    font-weight: 500;
+    font-size: 14px;
+    color: #B4B4B4;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
