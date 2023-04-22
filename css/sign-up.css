@@ -1,0 +1,32 @@
+/* !RESET */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Manrope', sans-serif;
+}
+/*!Container */
+.container{
+    margin: 82px 52px;
+    border-radius: 35px;
+    height: 859px;
+    background-color: #F5F5FF;
+    display: flex;
+}
+.container> div{
+    width: 485px;
+    height: 728px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 90px 65px;
+    padding: 40px;
+}
+.container > img{
+    border-radius: 35px 0 0  35px;
+    width: 50%;
+    height: 859px;
+}
