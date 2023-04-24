@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h4>Login</h4>
+        <h5>Welcome back! Please enter your details.</h5>
+        <h6>Email</h6>
+        <input type="email" id="email" />
+        <h6>Password</h6>
+        <div class="password">
+          <input type="text" id="password" />
+          <i class="fa-regular fa-eye" style="color: #8a7e7e"></i>
+        </div>
+        <div class="help">
+            <a href="#">Forgot password</a>
+        </div>
+        <font class="privacy">
+          <button class="checkbox" onclick="checked()">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <div>
+            <h4>I accept (name) and Terms of Services</h4>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </font>
+        <button class="button" id="login">Login</button>
+
+      </div>
+      <img src="./svg/OM6UUZ0 1 (1).svg" />
+    </div>
     <script src="./js/login.js"></script>
-</body>
+  </body>
 </html>

@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/sign-up.css" />
     <title>Sign Up</title>
   </head>
@@ -13,17 +20,52 @@
       <div>
         <h4>Create new account</h4>
         <h5>I am a</h5>
-        <font>
-          <input type="radio" name="chose" id="student" />
-          <label for="student">Student</label>
-          <input type="radio" name="chose" id="teacher"/>
-          <label for="teacher">Teacher</label>
+        <font class="student">
+          <div>
+            <button class="checkbox" onclick="checked()">
+              <i class="fa-solid fa-check"></i>
+            </button>
+            <h4>Student</h4>
+          </div>
+          <div>
+            <button class="checkbox" onclick="checked()">
+              <i class="fa-solid fa-check"></i>
+            </button>
+            <h4>Teacher</h4>
+          </div>
         </font>
         <h6>Date of birth</h6>
-        <div>
-          <input type="text"> 
-          <img src="./svg/calendar-2.svg" alt="calendar">
+        <div class="date">
+          <div>
+            <img src="./svg/calendar-2.svg" alt="calendar" />
+          </div>
         </div>
+        <h6>Email</h6>
+        <input type="email" />
+        <h6>Password</h6>
+        <div class="password">
+          <input type="text" id="password"/>
+          <i class="fa-regular fa-eye" style="color: #8a7e7e"></i>
+        </div>
+        <font class="privacy">
+          <button class="checkbox" onclick="checked()">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <div>
+              <h4>I accept (name) and Terms of Services</h4>
+              <a href="#">Privacy Policy</a>
+          </div>
+        </font>
+        <button class="button" id="signUp">Sign Up</button>
+        <div class="or">
+          <div class="line"></div>
+          <h5>or</h5>
+          <div class="line"></div>
+        </div>
+        <button class="button" id="google">
+          <img src="./svg/logos_google-icon.svg" alt="Google" />
+          Continue with Google
+        </button>
       </div>
     </div>
     <script src="./js/sign-up.js"></script>

@@ -30,3 +30,167 @@
     width: 50%;
     height: 859px;
 }
+.container> div > h4{
+    font-size: 24px;
+    font-weight: 700;
+    color:#2B2A2A;
+    margin-bottom: 30px;
+}
+.container> div > h5{
+    font-size: 16px;
+    font-weight: 700;
+    color:#2B2A2A;
+    margin-bottom: 10px;
+}
+.container> div > h6{
+    font-weight: 500;
+    color: #8A7E7E;
+    font-size: 16px;
+}
+.student > h4{
+    font-size: 16px;
+    color: #2B2A2A;
+    font-weight: 700;
+}
+/* all inputs */
+.container> div  input{
+    width: 100%;
+    height: 46px;
+    border-radius: 6px;
+    border:#E7E7E7 1px solid ;
+    padding:10px;
+    font-size: 16px;
+}
+/* student and Teacher */ 
+.student{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+.student>div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+/* checkboxes */
+.checkbox{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: #8A7E7E solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    transition: 0.3s;
+}
+.checkbox:hover{
+    opacity: 0.9;
+}
+.checked{
+    background-color: cyan;
+    border: none;
+}
+.fa-check{
+    color:white;
+}
+/* date-time */
+.date{
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.date > div >img{
+    cursor: pointer;
+}
+.date > div{
+    width: 100%;
+    height: 46px;
+    border-radius: 6px;
+    border:#E7E7E7 1px solid ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+}
+.container> div > input{
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+/* !passwords */
+.password{
+    position: relative;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 15px;
+}
+.password > i{
+    position: absolute;
+    top: 11px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privacy{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin-bottom: 41px;
+}
+.privacy > div > h4 {
+    font-size: 16px;
+    color: #8A7E7E;
+    font-weight: 500;
+}
+.privacy>div > a{
+    color:#675AF0;
+    font-size: 14px;
+    font-weight: 600;    
+}
+/*! Buttons */
+.button{
+    width: 100%;
+    height:46px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.button:active{
+    opacity: 0.9;
+}
+#signUp{
+    background-color: #675AF0;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+#google{
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    padding: 11px 20px;
+    color:#A39D9D;
+    font-size: 400;
+}
+.or{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #8A7E7E;
+}
+.line{
+    width: 130px;
+    height: 1px;
+    border: #C5C4C4 1px solid;
+}

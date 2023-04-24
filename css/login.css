@@ -1,6 +1,5 @@
 /* !RESET */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +7,144 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Manrope', sans-serif;
+}
+/*!Container */
+.container{
+    margin: 82px 52px;
+    border-radius: 35px;
+    height: 859px;
+    background-color: #F5F5FF;
+    display: flex;
+    justify-content: space-between;
+}
+.container> div{
+    width: 485px;
+    height: 728px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:  70px 90px;
+    padding: 40px;
+}
+.container > img{
+    border-radius:  0 35px 35px 0  ;
+    width: 50%;
+    height: 859px;
+}
+.container> div > h4{
+    font-size: 24px;
+    font-weight: 700;
+    color:#2B2A2A;
+    margin-bottom: 7px;
+}
+.container> div > h5{
+    font-size: 16px;
+    font-weight: 500;
+    color:#8A7E7E;
+    margin-bottom: 55px;
+}
+.container> div > h6{
+    font-weight: 500;
+    color: #8A7E7E;
+    font-size: 16px;
+}
+
+/* all inputs */
+.container> div  input{
+    width: 100%;
+    height: 46px;
+    border-radius: 6px;
+    border:#E7E7E7 1px solid ;
+    padding:10px;
+    font-size: 16px;
+}
+
+/* checkboxes */
+.checkbox{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: #8A7E7E solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    transition: 0.3s;
+}
+.checkbox:hover{
+    opacity: 0.9;
+}
+.checked{
+    background-color: cyan;
+    border: none;
+}
+.fa-check{
+    color:white;
+}
+#email{
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+/* !passwords */
+.password{
+    position: relative;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 4px;
+}
+.password > i{
+    position: absolute;
+    top: 11px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privacy{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin-bottom: 182px;
+}
+.privacy > div > h4 {
+    font-size: 16px;
+    color: #8A7E7E;
+    font-weight: 500;
+}
+.privacy>div > a{
+    color:#675AF0;
+    font-size: 14px;
+    font-weight: 600;    
+}
+.help{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.help > a{
+    color:#8A7E7E;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*! Buttons */
+
+#login{
+    background-color: #675AF0;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 100%;
+    height:46px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+#login:active{
+    opacity: 0.8;
 }
