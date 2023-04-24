@@ -89,7 +89,7 @@
 .checkbox:hover{
     opacity: 0.9;
 }
-.checked{
+.checkbox:focus{
     background-color: cyan;
     border: none;
 }
@@ -193,4 +193,4 @@
     width: 130px;
     height: 1px;
     border: #C5C4C4 1px solid;
-}
+} 

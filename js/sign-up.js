@@ -1,9 +1,7 @@
-const checkbox = document.querySelector(".checkbox")
-const eyeButton = document.querySelector(".fa-eye")
-const password = document.querySelector("#password") 
-function checked(){
-    checkbox.classList.toggle("checked")
-}
+
+const eyeButton = document.querySelector(".fa-eye");
+const password = document.querySelector("#password") ;
+
 eyeButton.addEventListener("click",()=>{  
     if(eyeButton.classList.contains("fa-eye")){
         eyeButton.classList.replace("fa-eye","fa-eye-slash")
