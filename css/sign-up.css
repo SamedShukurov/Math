@@ -86,10 +86,29 @@
     background-color: white;
     transition: 0.3s;
 }
+.agree{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: #8A7E7E solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    transition: 0.3s;
+}
 .checkbox:hover{
     opacity: 0.9;
 }
+.agree:hover{
+    opacity: 0.9;
+}
 .checkbox:focus{
+    background-color: cyan;
+    border: none;
+}
+.agreed{
     background-color: cyan;
     border: none;
 }
