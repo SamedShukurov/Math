@@ -104,10 +104,6 @@
 .agree:hover{
     opacity: 0.9;
 }
-.checkbox:active{
-    background-color: cyan;
-    border: none;
-}
 .agreed{
     background-color: cyan;
     border: none;
@@ -213,3 +209,5 @@
     height: 1px;
     border: #C5C4C4 1px solid;
 } 
+
+
