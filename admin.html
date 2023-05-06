@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/admin.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <div class="main">
+      <aside>
+        <h4>MathQuiz</h4>
+        <nav>
+          <div class="exams bar">
+            <img src="./svg/hat.svg" alt="hat" />
+            <h4>İmtahanlar</h4>
+          </div>
+          <div class="onlineVideos bar">
+            <img src="./svg/video-play.svg" alt="hat" />
+            <h4>Onlayn videolar</h4>
+          </div>
+          <div class="scoreboard bar">
+            <img src="./svg/chart.svg" alt="hat" />
+            <h4>ScoreBoard</h4>
+          </div>
+          <div class="about bar">
+            <img src="./svg/stickynote.svg" alt="hat" />
+            <h4>Haqqımızda</h4>
+          </div>
+        </nav>
+      </aside>
+      <section>
+        <header>
+          <div>
+            <h4>Imtahanlar</h4>
+            <hr />
+            <div>
+              <button>
+                <span>+</span>
+                Add exam
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src="./svg/Google Profile.svg" alt="Google Profile" />
+            <h5>username@gmail.com</h5>
+            <h4>Teacher</h4>
+          </div>
+        </header>
+        <main>
+          <div class="main_header">
+            <div class="filter">
+              <h4>Növ</h4>
+              <button class="filter_buttons" id="type">
+                <h4>Hamısı</h4>
+                <img src="./svg/arrow-down.svg" alt="arrow" />
+              </button>
+            </div>
+            <div class="filter">
+              <h4>Tarix</h4>
+              <button class="filter_buttons" id="time">
+                <h4>Hamısı</h4>
+                <img src="./svg/calendar-2.svg" alt="arrow" />
+              </button>
+            </div>
+            <div class="filter">
+              <h4>Qiymət</h4>
+              <button class="filter_buttons" id="price">
+                <h4>Hamısı</h4>
+                <img src="./svg/arrow-down.svg" alt="arrow" />
+              </button>
+            </div>
+          </div>
+          <div class="exam">
+          </div>
+        </main>
+      </section>
+    </div>
+    <script src="./js/admin.js"></script>
+  </body>
+</html>
