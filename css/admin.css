@@ -74,7 +74,7 @@ section{
 }
 /* Section's header */
 header{
-    width:100%;
+    width:80%;
     height: 155px;
     background-color: #30333D;
     z-index: 2;
